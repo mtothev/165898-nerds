@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс. Каталог</title>
+  </head>
+  <body>
+    <article class="popup-write-us">
+      <div class="container">
+        <div class="popup-header">Напишите нам</div>
+        <form class="feedback-form" action="/keksby-mail" method="post">
+          <div class="feedback-form-group">
+            <label for="fullname">Ваше имя:</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Представьтесь, пожалуйста">
+          </div>
+          <div class="feedback-form-group">
+            <label for="email">Ваш e-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Для отправки ответа">
+          </div>
+          <div class="feedback-form-group">
+          <label for="letter">Текст обращения:</label>
+          <textarea name="letter" id="letter" placeholder="В свободной форме"></textarea>
+          </div>
+          <input type="submit" class="btn" value="Отправить">
+        </form>
+      </div>
+    </article>
+
+
+  	<header class="main-header">
+	    <div class="container">
+        <nav class="main-navigation">
+          <div class="header-logo">
+            <a href="#"><img src="http://placehold.it/111x24" alt="Дизайн-студия «Нёрдс»" width="160" height="65"></a>
+          </div>
+            <ul>
+              <li>
+                <a href="#">Студия</a>
+              </li>
+              <li>
+                <a href="#">Клиенты</a>
+              </li>
+              <li>
+                <a href="#">Магазин</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Корзина</a>
+        </div>
+      </div>
+    </header>
+
+
+    <main class="container">
+      <section class="top">
+        <h1>Магазин готовых шаблонов</h1>
+      </section>
+
+      <section class="templates-catalog">
+        <section class="sorter">
+          <h2>Сортировать:</h2>
+          <div class="sorter-option-selected">
+            <span class="sorter-link">По цене</span>
+          </div>
+          <div class="sorter-option">
+            <a class="sorter-link" href="#">По типу</a>
+          </div>
+          <div class="sorter-option">
+            <a class="sorter-link" href="#">По названию</a>
+          </div>
+          <div class="high-low">
+            <div class="high-low-option-selected"></div>
+            <div class="high-low-option">
+              <a href="#"></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="templates-cards">
+          <article class="template-card">
+            <div class="template-browser">
+              <ul>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+              </ul>
+            </div>
+            <a class="template-image" href="#" title="Шаблон «Sedona»"><img src="http://placehold.it/360x576" alt="Шаблон «Sedona»" width="360" height="576"></a>
+            <div class="template-hover">
+              <a href="#">Sedona</a>
+            <p>Информационный сайт<br>
+            для туристов</p>
+              <a class="btn" href="#">9 900 руб.</a>
+            </div>
+          </article>
+          <article class="template-card">
+            <div class="template-browser">
+              <ul>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+              </ul>
+            </div>
+            <a class="template-image" href="#" title="Шаблон «Pink»"><img src="http://placehold.it/360x576" alt="Шаблон «Pink»" width="360" height="576"></a>            
+          </article>
+          <article class="template-card">
+            <div class="template-browser">
+              <ul>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+              </ul>
+            </div>
+            <a class="template-image" href="#" title="Шаблон «Барбершоп «Бородинский»"><img src="http://placehold.it/360x576" alt="Шаблон «Барбершоп «Бородинский»" width="360" height="576"></a>            
+          </article>
+          <article class="template-card">
+            <div class="template-browser">
+              <ul>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+              </ul>
+            </div>
+            <a class="template-image" href="#" title="Шаблон «Mishka»"><img src="http://placehold.it/360x576" alt="Шаблон «Mishka»" width="360" height="576"></a>            
+          </article>
+          <article class="template-card">
+            <div class="template-browser">
+              <ul>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+              </ul>
+            </div>
+            <a class="template-image" href="#" title="Шаблон «А+»"><img src="http://placehold.it/360x576" alt="Шаблон «А+»" width="360" height="576"></a>            
+          </article>
+          <article class="template-card">
+            <div class="template-browser">
+              <ul>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+                <li class="template-browser-bullet"></li>
+              </ul>
+            </div>
+            <a class="template-image" href="#" title="Шаблон «Кваст»"><img src="http://placehold.it/360x576" alt="Шаблон «Кваст»" width="360" height="576"></a>            
+          </article>
+        </section>
+
+        <nav class="pages">
+          <span>1</span>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a class="pages-next" href="#">следующая</a>
+        </nav> 
+      </section>
+
+
+      <section class="left-sidebar">
+        <form class="filter" action="#" method="get">
+          <section class="filter-price">
+            <h2>СТОИМОСТЬ:</h2>
+            <div class="range-controls">
+                <div class="scale"><div style="width:120px;" class="bar"></div></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                от <input class="min-price" type="text" value="0">
+                до <input class="max-price" type="text" value="15 000">
+            </div>
+          </section>
+
+          <section class="grid-types">
+            <h2>СЕТКА:</h2>
+            <div class="grid-types-radio">
+              <div class="grid-types-option">
+                <label>
+                  <input type="radio" checked name="grid-type" value="1">Адаптивная
+                </label>
+              </div>
+              <div class="grid-types-option">
+                <label>
+                  <input type="radio" name="grid-type" value="2">Фиксированная
+                </label>
+              </div>
+              <div class="grid-types-option">
+                <label>
+                  <input type="radio" name="grid-type" value="3">Резиновая
+                </label>
+              </div>
+            </div>
+          </section>
+
+          <section class="features">
+            <h2>ОСОБЕННОСТИ:</h2>
+            <div class="features-checkbox">
+              <div class="features-option">
+                <label>
+                  <input type="checkbox" checked name="1">Слайдер
+                </label>
+              </div>
+              <div class="features-option">
+                <label>
+                  <input type="checkbox" name="2">Блок преимуществ
+                </label>
+              </div>
+              <div class="features-option">
+                <label>
+                  <input type="checkbox" checked name="3">Новости
+                </label>
+              </div>
+              <div class="features-option">
+                <label>
+                  <input type="checkbox" name="4">Галерея
+                </label>
+              </div>
+              <div class="features-option">
+                <label>
+                  <input type="checkbox" name="5">Корзина
+                </label>
+              </div>
+            </div>
+          </section>
+
+          <div class="left-sidebar-apply">
+            <button type="submit" class="btn">ПОКАЗАТЬ</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+
+    <footer>
+      <div class="container">
+        <section class="conacts-map">
+          <article class="contacts">
+            <b>NЁRDS DESIGN STUDIO</b>
+            <p>191186, Санкт-Петербург,<br>
+            ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. +7 (812) 275-75-75</p>
+            <a class="contact-btn" href="#">Напишите нам</a>
+          </article>
+          <article id="map">
+            <a href="#"><img src="http://placehold.it/1440x416" width="1440" height="416" alt="Google maps"></a>
+          </article>
+        </section>
+
+        <section class="footer-social">
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <b>Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </section>  
+      </div>
+    </footer>  
+  </body>
+</html>
