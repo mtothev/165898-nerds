@@ -5,30 +5,8 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-  	<article class="popup-write-us">
-      <div class="container">
-      	<div class="popup-header">Напишите нам</div>
-      	<form class="feedback-form" action="/keksby-mail" method="post">
-          <div class="feedback-form-group">
-            <label for="fullname">Ваше имя:</label>
-            <input type="text" name="fullname" id="fullname" placeholder="Представьтесь, пожалуйста">
-          </div>
-          <div class="feedback-form-group">
-            <label for="email">Ваш e-mail:</label>
-            <input type="text" name="email" id="email" placeholder="Для отправки ответа">
-          </div>
-          <div class="feedback-form-group">
-          <label for="letter">Текст обращения:</label>
-          <textarea name="letter" id="letter" placeholder="В свободной форме"></textarea>
-          </div>
-          <input type="submit" class="btn" value="Отправить">
-      	</form>
-      </div>
-    </article>
-
-
-  	<header class="main-header">
-	  <div class="container">
+    <header class="main-header">
+	    <div class="container">
         <nav class="main-navigation">
           <div class="header-logo">
             <img src="http://placehold.it/111x24" alt="Дизайн-студия «Нёрдс»" width="160" height="65">
@@ -189,5 +167,26 @@
         </section>  
       </div>
     </footer>  
+
+    <article class="popup-write-us">
+      <div class="container">
+        <div class="popup-header">Напишите нам</div>
+        <form class="feedback-form" action="/keksby-mail" method="post">
+          <div class="feedback-form-group">
+            <label for="fullname">Ваше имя:</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Представьтесь, пожалуйста">
+          </div>
+          <div class="feedback-form-group">
+            <label for="email">Ваш e-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Для отправки ответа">
+          </div>
+          <div class="feedback-form-group">
+          <label for="letter">Текст обращения:</label>
+          <textarea name="letter" id="letter" placeholder="В свободной форме"></textarea>
+          </div>
+          <input type="submit" class="btn" value="Отправить">
+        </form>
+      </div>
+    </article>
   </body>
 </html>
