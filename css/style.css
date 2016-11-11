@@ -7,3 +7,24 @@ body {
 	color: #283136;
 	background-color: white;
 }
+
+.info-studio h1 {
+	font-family: "Roboto Medium", Arial, sans-serif;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+
+.top h1 {
+	font-family: "Roboto Medium", Arial, sans-serif;
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+
+.service h2 {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 55px;
+	font-weight: bold;
+	color: #000000;
+}
