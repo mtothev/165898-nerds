@@ -1,30 +1,162 @@
 body {
-	margin: 0;
-	font-family: "Roboto", Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
- 	font-weight: normal;
-	color: #283136;
-	background-color: white;
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #283136;
 }
 
-.info-studio h1 {
-	font-family: "Roboto Medium", Arial, sans-serif;
-	font-size: 45px;
-	line-height: 45px;
-	color: #000000;
+h1 {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-weight: normal;
+    color: #000000;
 }
 
 .top h1 {
-	font-family: "Roboto Medium", Arial, sans-serif;
-	font-size: 55px;
-	line-height: 55px;
-	color: #000000;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+h2 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: bold;
+    color: #000000;
 }
 
 .service h2 {
-	font-family: "Roboto", Arial, sans-serif;
-	font-size: 55px;
-	font-weight: bold;
-	color: #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.left-sidebar h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.slider-header {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-size: 55px;
+    font-weight: normal;
+    line-height: 55px;
+    color: #000000;
+}
+
+.btn {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.info-studio .lead {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.main-header a {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.service a {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.percent span {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+
+.sorter a {
+    font-size: 14px;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.sorter .active {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    color: #000000;
+}
+
+.templates-cards a {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.templates-cards .btn {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.templates-cards p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.paginator a {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-social .lead {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.popup-header {
+    font-family: "Roboto Medium", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    color: #000000;
+}
+
+label {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.popup-write-us label {
+    font-weight: bold;
 }
